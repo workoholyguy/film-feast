@@ -1,7 +1,3 @@
-Here’s a README file for your **Theatre Reservation System** project, styled similarly:
-
----
-
 <!-- Header -->
 <h1 align="center">🎟️ Theatre Reservation System - FilmFeast 🍿</h1>
 
@@ -18,7 +14,7 @@ Here’s a README file for your **Theatre Reservation System** project, styled s
 <!-- About Project -->
 ## 🎬 About FilmFeast
 
-**FilmFeast** is an all-in-one theatre reservation system designed to streamline the ticket booking process while offering in-seat food and drink ordering. This app allows users to enjoy a seamless movie-going experience by combining seat reservations, movie listings, and order management all on a single platform. FilmFeast makes it easier for customers to reserve their favorite seats, enjoy in-theater dining, and immerse themselves in a complete entertainment experience.
+**FilmFeast** is a comprehensive theater reservation and order management system, designed to provide users with a seamless movie experience by integrating ticket reservations, in-seat food ordering, and real-time availability updates. Built with React, Supabase, and Vite, this project makes it easy for customers to reserve seats, order food, and stay informed about availability—all in one place.
 
 ---
 
@@ -39,29 +35,28 @@ Here’s a README file for your **Theatre Reservation System** project, styled s
 <!-- Features -->
 ## ✨ Features
 
-- **🎟️ Seat Reservations** - Book seats for a specific movie and showtime with real-time availability.
-- **🍿 In-Seat Ordering** - Place food and drink orders to be delivered directly to your seat.
-- **📅 Showtime Management** - Display upcoming movie showtimes, titles, and ratings.
-- **🧑‍💼 Admin Management** - Support for admins to update showtimes, movies, and menu items.
+- **🎟️ Seat Reservations** - Book seats with real-time availability and enjoy a streamlined booking process.
+- **🍿 In-Seat Ordering** - Order food and drinks to be delivered directly to your seat during the movie.
+- **📅 Showtime Management** - View upcoming showtimes, movie details, and seat layouts.
+- **🧑‍💼 Admin Controls** - Update movie schedules, menu items, and manage reservations.
+- **🔄 Reset Tickets Feature** - Added functionality for admins to reset ticket availability after reservations, providing flexibility for future bookings.
 
 ---
 
 <!-- Project Demo -->
 ## 🎥 Project Demo
 
-FilmFeast offers a complete experience for both customers and theater staff, featuring:
-
-1. **Customer Interface** - Reserve seats, view movie showtimes, and place food orders.
-2. **Admin Interface** - Manage showtimes, movies, seat configurations, and menu items.
+1. **Customer Interface** - Easily reserve seats, view showtimes, and order food.
+2. **Admin Interface** - Manage showtimes, movies, and reset ticket availability for flexible booking options.
    
-*Demo coming soon!*
+*Demo video coming soon!*
 
 ---
 
 <!-- Getting Started -->
 ## 🚀 Getting Started
 
-To set up the project locally:
+Follow these steps to set up FilmFeast locally:
 
 1. **Clone the Repository**:
    ```bash
@@ -75,8 +70,12 @@ To set up the project locally:
    ```
 
 3. **Set Up Environment**:
-   - Configure MySQL database or set up Supabase as your backend.
-   - Update API keys and database credentials in the `.env` file.
+   - Configure your MySQL or Supabase database.
+   - Place your Supabase URL and API key in a `.env` file:
+     ```plaintext
+     VITE_SUPABASE_URL=your_supabase_url
+     VITE_SUPABASE_ANON_KEY=your_supabase_key
+     ```
 
 4. **Run the Project**:
    ```bash
@@ -88,25 +87,26 @@ To set up the project locally:
 <!-- How It Works -->
 ## 🧩 How It Works
 
-1. **Database**: Manages movies, showtimes, seats, and orders.
-2. **Frontend**: A React-based UI that offers a seamless experience for customers and admins.
-3. **Backend**: Built with Express.js, handling API requests and serving data to the frontend.
+1. **Database**: Manages movies, showtimes, seating, and order data.
+2. **Frontend**: A React-based interface for customer reservations and admin management.
+3. **Backend**: Built with Supabase and Express, supporting API interactions with the frontend.
 
 ---
 
 <!-- Screenshots -->
 ## 📸 Screenshots
 
-*Screenshots coming soon!*
+Screenshots showcasing the reservation process, order management, and admin interface coming soon!
 
 ---
 
 <!-- Future Improvements -->
 ## 🔮 Future Improvements
 
-- **Real-Time Notifications** - Notify customers of seat or order updates.
-- **Advanced Analytics** - Analyze reservation patterns and optimize seat layouts.
-- **Enhanced Security** - Implement role-based access control for different user roles.
+- **Real-Time Notifications** - Inform customers of seat or order updates.
+- **User Profiles** - Allow customers to manage bookings and view order history.
+- **Analytics** - Analyze booking trends and optimize seating arrangements.
+- **Enhanced Security** - Implement role-based access control for secure and tailored experiences.
 
 ---
 
@@ -129,11 +129,11 @@ To set up the project locally:
 <!-- Contact -->
 ## 📫 Contact
 
-Feel free to reach out if you have questions or want to collaborate!
+Have questions or want to contribute? Reach out below!
 
 - **LinkedIn:** [linkedin.com/in/omar-madjitov-6b3a33234](https://linkedin.com/in/omar-madjitov-6b3a33234)
 - **Email:** [omadjitov1@icloud.com](mailto:omadjitov1@icloud.com)
 
 ---
 
-*Enjoy the show with FilmFeast!*
+*Enjoy a seamless movie experience with FilmFeast!* 
