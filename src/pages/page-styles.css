@@ -1,0 +1,108 @@
+.crewmate-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-left: 12%;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: cornflowerblue;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+  unicode-bidi: isolate;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: auto;
+  position: relative;
+  font-size: larger;
+}
+
+.mini-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 15px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+  background-color: #a2a1a180;
+}
+
+li {
+  list-style-type: none; /* This removes the default bullet */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+button {
+  border: white solid 4px;
+}
+
+.master-details-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.delete-button {
+  background-color: rgb(133, 94, 94);
+  /* color: red; */
+  border: solid red 2px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.all-tables-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-tables {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+}
+.left-tables {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+}

@@ -1,0 +1,16 @@
+/* .home-content-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  
+} */
+
+li {
+  border: 1px white dashed;
+  padding: 2%;
+}
+
+a {
+  border: dotted;
+}
