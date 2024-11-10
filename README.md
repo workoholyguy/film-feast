@@ -116,10 +116,10 @@ Screenshots showcasing the reservation process, order management, and admin inte
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight">
+      <img src="https://github-readme-stats.vercel.app/api?username=workoholyguy&show_icons=true&theme=tokyonight">
     </td>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=tokyonight">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=workoholyguy&layout=compact&theme=tokyonight">
     </td>
   </tr>
 </table>
