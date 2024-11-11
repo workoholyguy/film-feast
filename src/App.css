@@ -71,3 +71,9 @@
   border: lightblue solid 2px;
   margin: 3%;
 }
+
+@media (max-width: 1024px) {
+  * {
+    font-size: 100%;
+  }
+}

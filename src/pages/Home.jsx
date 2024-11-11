@@ -63,14 +63,16 @@ function Home() {
             <ol>
               <li>
                 <strong>Reserve Your Seat:&nbsp;</strong>
-                Visit the &nbsp;&nbsp;<a href="/reserve">Buy a Ticket </a>{" "}
+                Visit the&nbsp;&nbsp;<a href="/reserve">Buy a Ticket </a>{" "}
                 &nbsp;&nbsp;page to browse showtimes and select your preferred
                 seat.
               </li>
               <li>
-                <strong>Place Your Order:</strong> On the{" "}
-                <a href="/order">Order Food</a> page, browse our selection of
-                snacks and beverages to enhance your viewing experience.
+                <span>
+                  <strong>Place Your Order:</strong> On the{" "}
+                  <a href="/order">Order Food</a> page, browse our selection of
+                  snacks and beverages to enhance your viewing experience.
+                </span>{" "}
               </li>
               <li>
                 <strong>Enjoy the Show:</strong> Sit back, relax, and enjoy your
