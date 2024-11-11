@@ -3,6 +3,7 @@ import { useState } from "react";
 import { supabase } from "../client";
 import "./page-styles.css";
 import "./home.css";
+import { Link } from "react-router-dom";
 
 // import { supabase } from "../client";
 
@@ -64,7 +65,9 @@ function Home() {
               <li>
                 <span>
                   <strong>Reserve Your Seat:&nbsp;</strong>
-                  Visit the&nbsp;&nbsp;<a href="/reserve">Buy a Ticket </a>{" "}
+                  Visit the&nbsp;&nbsp;<Link to="/reserve">
+                    Buy a Ticket{" "}
+                  </Link>{" "}
                   &nbsp;&nbsp;page to browse showtimes and select your preferred
                   seat.
                 </span>
@@ -72,8 +75,8 @@ function Home() {
               <li>
                 <span>
                   <strong>Place Your Order:</strong> On the{" "}
-                  <a href="/order">Order Food</a> page, browse our selection of
-                  snacks and beverages to enhance your viewing experience.
+                  <Link to="/order">Order Food</Link> page, browse our selection
+                  of snacks and beverages to enhance your viewing experience.
                 </span>{" "}
               </li>
               <li>
@@ -99,7 +102,7 @@ function Home() {
             <p>
               Explore the system by navigating through the menu options. View
               current movies, theaters, and seat availability, or dive into the{" "}
-              <a href="/tables">View All Current Tables</a> section to get a
+              <Link to="/tables">View All Current Tables</Link> section to get a
               behind-the-scenes look at the database structure that powers Film
               Feast.
             </p>
