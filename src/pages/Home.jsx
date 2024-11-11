@@ -77,9 +77,11 @@ function Home() {
                 </span>{" "}
               </li>
               <li>
-                <strong>Enjoy the Show:</strong> Sit back, relax, and enjoy your
-                movie while your food and drinks are brought directly to your
-                seat.
+                <span>
+                  <strong>Enjoy the Show:</strong> Sit back, relax, and enjoy
+                  your movie while your food and drinks are brought directly to
+                  your seat.
+                </span>
               </li>
             </ol>
 
