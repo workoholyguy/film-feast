@@ -108,7 +108,7 @@ button {
 }
 
 /* Media query for small screens (mobile view) */
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
   /* Move navigation bar to the top */
   .side-nav {
     position: relative;
