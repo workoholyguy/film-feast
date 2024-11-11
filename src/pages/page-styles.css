@@ -121,6 +121,9 @@ button {
 
   /* Adjust link style for top navigation */
   .side-nav > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0; /* Remove margins */
     flex: 1; /* Make each link take equal space */
     border: none;
