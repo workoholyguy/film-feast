@@ -62,10 +62,12 @@ function Home() {
             <h2>How It Works</h2>
             <ol>
               <li>
-                <strong>Reserve Your Seat:&nbsp;</strong>
-                Visit the&nbsp;&nbsp;<a href="/reserve">Buy a Ticket </a>{" "}
-                &nbsp;&nbsp;page to browse showtimes and select your preferred
-                seat.
+                <span>
+                  <strong>Reserve Your Seat:&nbsp;</strong>
+                  Visit the&nbsp;&nbsp;<a href="/reserve">Buy a Ticket </a>{" "}
+                  &nbsp;&nbsp;page to browse showtimes and select your preferred
+                  seat.
+                </span>
               </li>
               <li>
                 <span>
